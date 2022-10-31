@@ -1,0 +1,117 @@
+.sitebody {
+  text-align: center;
+
+  background: rgba(256, 246, 176, 0.95);
+
+  border: 5px solid #0391ff; 
+  border-width: 15px;
+  border-top-left-radius: 150px;
+  border-top-right-radius: 150px;
+
+  width: 80%;
+  height: 100%;
+
+  display: inline-block;
+  margin-top: 7%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  display: block;
+  float: left;
+
+  min-width: 64px;
+  max-width: 15%;
+  background: rgba(256, 246, 176, 0.95);
+  border: 4px solid #0391ff;
+}
+
+.navbar_el {
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.2);
+  margin-bottom: 3px;
+}
+
+.navbar_button {
+  cursor: pointer;
+}
+
+.navbar a {
+  color: black;
+}
+
+.navbar_button:hover {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgba(241, 32, 0, 0.5);
+}
+
+.navbar_button:active {
+  transition-duration: 0s;
+  transition-delay: 0s;
+  background-color: #0391ffaa;
+}
+
+.about, .treeviewer {
+  text-align: center;
+  font-style: oblique;
+  font-weight: bold;
+  color: #9c1a4e;
+}
+
+p.title {
+  font-size: 48px;
+}
+
+div.description {
+  font-size: 24px;
+
+  display: block;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.cool_block {
+  background-color: rgba(148, 21, 0, 0.30);
+  border: 5px solid rgba(148, 21, 0, 0.80); 
+  margin: 20px;
+  text-align: center;
+
+  position: relative;
+  display: block;
+
+  padding: 15px;
+  margin: 10px;
+}
+
+.resistors {
+  display: inline-block;
+}
+
+.treeviewer {
+  text-align: left;
+
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.animated {
+  transition-duration: 0.25s;
+  transition-delay: 0.25s;
+  transition-timing-function: linear;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0px;
+
+  text-align: center;
+}
+

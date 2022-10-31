@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="store.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="background.css" type="text/css" charset="utf-8">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script type="text/javascript" src="debug.js"></script>
+    <script type="text/javascript" src="store.js"></script>
+    <script type="text/javascript" src="background.js"></script>
+    <title>Лабораторная работа №4</title>
+  </head>
+  <body>
+    <ul class="bg animated navbar">
+      <li class="animated navbar_el navbar_button" onclick="goto('/about.html');">
+        <a>О нас</a>
+      </li>
+      <div class="animated navbar_el">
+        <div class="cool_block shopitem">
+          <a>К оплате:</a>
+          <a id="price"></a>
+        </div>
+      </div>
+      <div class="animated navbar_el navbar_shoplist" id="cart">
+
+      </div>
+    </ul>
+    <div id="bg" class="bg">
+
+    </div>
+    <div class="sitebody">
+      <div class="about">
+        <p class="title">
+          Резистор и теристор
+        </p>
+        <div id="pictors" class="cool_block resistors">
+
+        </div>
+        <p class="title">
+          Каталог
+        </p>
+        <div id="catalog" class="catalog animated cool_block">
+
+        </div>
+      </div>
+      <div class="about"><p class="title">Окошко для дебага</p></div>
+        <button onclick="start_analyze();">
+          Обновить!
+        </button>
+      <div class="cool_block treeviewer" id="tree">
+      </div>
+    </div>
+
+  </body>
+</html>
+
+
+

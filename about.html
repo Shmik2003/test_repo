@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="background.css" type="text/css" charset="utf-8">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script type="text/javascript" src="debug.js"></script>
+    <script type="text/javascript" src="store.js"></script>
+    <script type="text/javascript" src="background.js"></script>
+    <title>Лабораторная работа №3</title>
+  </head>
+  <body>
+    <ul class="bg animated navbar">
+      <li class="animated navbar_el navbar_button" onclick="goto('/store.html');">
+        <a>Магазин</a>
+      </li>
+    </ul>
+    <div id="bg" class="bg">
+      
+    </div>
+    <div class="sitebody">
+      <div class="about">
+        <p class="title">
+          Резистор и теристор
+        </p>
+        <div id="pictors" class="cool_block resistors">
+
+        </div>
+        <p class="title">
+          Информация о магазине ⋅ О нас
+        </p>
+        <div class="cool_block description">
+          <p>
+            Магазин радиоэлектроники "Резистор и теристор" - это не только
+            интернет-магазин радиодеталей, но и пункт выдачи заказов от разных
+            ретейлеров электроники и компьютерной техники, который
+            предлагает своим клиентам широкий ассортимент радио и электродеталей.
+          </p>
+          <p>
+            В нашем магазине всегда можно купить радиодетали, конденсаторы, транзисторы
+            и микросхемы.
+          </p>
+          <p>
+            Мы работаем с физическими и юридическими лицами с 1999 года.
+            У нас Вы можете получить консультацию по любому интересующему Вас вопросу.
+            Наши специалисты ответят на все Ваши вопросы и помогут определиться с выбором.
+          </p>
+        </div>
+      </div>
+      <div class="about"><p class="title">Окошко для дебага</p></div>
+        <button onclick="start_analyze();">
+          Обновить!
+        </button>
+      <div class="cool_block treeviewer" id="tree">
+        
+      </div>
+    </div>
+  </body>
+</html>
+

@@ -1,0 +1,38 @@
+.bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.bgrow {
+   display: block;
+   overflow: hidden;
+   white-space: nowrap;
+ }
+
+.navbar, .sitebody {
+  position: relative;
+  z-index: 1;
+}
+
+.bgtile {
+  position: relative;
+  display: inline-block;
+}
+
+.bgtile img {
+  position: relative;
+  z-index: 2;
+}
+
+.bgtile div {
+  position: absolute;
+  display: block;
+  background-color: rgba(20, 185, 256, 0.95);
+  bottom: 0px;
+  top: 0px;
+  z-index: 1;
+}
+

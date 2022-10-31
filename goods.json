@@ -1,0 +1,65 @@
+{
+  "goods": [
+    {
+      "name": "Arduino UNO (оригинал)",
+      "price": 2300,
+      "icon": "resources/goods/arduinouno.png"
+    },
+    {
+      "name": "Raspberry Pi 4",
+      "price": 18999,
+      "icon": "resources/goods/raspberry4.png"
+    },
+    {
+      "name": "Raspberry Pi 3 A+",
+      "price": 8999,
+      "icon": "resources/goods/raspberry3a.png"
+    },
+    {
+      "name": "Конденсаторы",
+      "price": 150,
+      "icon": "resources/goods/capacitor.png"
+    },
+    {
+      "name": "ESP32",
+      "price": 799,
+      "icon": "resources/goods/esp32.png"
+    },
+    {
+      "name": "Резисторы",
+      "price": 120,
+      "icon": "resources/goods/resistors.png"
+    },
+    {
+      "name": "USB-программатор",
+      "price": 210,
+      "icon": "resources/goods/programmer.png"
+    },
+    {
+      "name": "Khadas Vim 3",
+      "price": 14999,
+      "icon": "resources/goods/khadasvim3.png"
+    },
+    {
+      "name": "Rock Pi 4+",
+      "price": 11999,
+      "icon": "resources/goods/rockpi4p.png"
+    },
+    {
+      "name": "Макетная плата",
+      "price": 70,
+      "icon": "resources/goods/breadboard.png"
+    },
+    {
+      "name": "Orange Pi One",
+      "price": 3999,
+      "icon": "resources/goods/orangepi1.png"
+    },
+    {
+      "name": "Kingstone Canvas Go! Plus",
+      "price": 6999,
+      "icon": "resources/goods/sdcard.png"
+    }
+  ]
+}
+

@@ -1,0 +1,86 @@
+.productile {
+  display: inline-block;
+  padding: 15px;
+  margin: 15px;
+  vertical-align: middle;
+
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: min-content;
+
+  cursor: pointer;
+}
+
+.productile:hover {
+  margin: 0px;
+  padding: 30px;
+}
+
+.productile img {
+  width: 128px;
+}
+
+.productile:hover img {
+  width: 192px;
+}
+
+.productile p {
+  text-align: center;
+  word-break: break-all;
+}
+
+.productile p.name,
+.productile div a,
+.shopitem div,
+.shopitem a {
+  color: rgba(256, 246, 176, 0.95);
+}
+
+.productile p.price {
+  color: #5465ff;
+}
+
+.catalog {
+  margin: 25px;
+
+  padding-left: 47px;
+  padding-right: 47px;
+}
+
+.buybutt:hover,
+.shopbutt:hover {
+  background-color: rgba(14, 237, 241, 0.5);
+}
+
+.minus:hover {
+  background-color: rgba(241, 37, 0, 0.5);
+}
+
+.buybutt:active,
+.shopbutt:active {
+  transition-duration: 0s;
+  transition-delay: 0s;
+  background-color: #0391ffaa;
+}
+
+.shopbutt {
+  display: inline-block;
+}
+
+.shopitem {
+  display: block;
+  border-width: 1px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.shopitem a {
+  font-size: 18px;
+}
+
+.shopitem .minus:active {
+  transition-duration: 0s;
+  transition-delay: 0s;
+  background-color: #ff0004;
+}
+
